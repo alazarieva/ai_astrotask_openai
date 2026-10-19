@@ -1,0 +1,54 @@
+{
+  "query": {
+    "cluster": {
+      "name": "M67",
+      "ra_deg": 132.825,
+      "dec_deg": 11.8,
+      "radius_deg": 2.0,
+      "expected_pmra": -10.9,
+      "expected_pmdec": -2.9,
+      "expected_parallax": 1.14,
+      "av_prior": 0.13,
+      "feh_prior": 0.03,
+      "log_age_min": 9.0,
+      "log_age_max": 10.2,
+      "max_g_mag": null
+    },
+    "source": "ESA Gaia Archive",
+    "catalog": "gaiadr3.gaia_source_lite",
+    "query": {
+      "ra_deg": 132.825,
+      "dec_deg": 11.8,
+      "radius_deg": 2.0
+    },
+    "query_version": "4",
+    "selected_columns": [
+      "source_id",
+      "ra",
+      "dec",
+      "parallax",
+      "parallax_error",
+      "pmra",
+      "pmra_error",
+      "pmdec",
+      "pmdec_error",
+      "phot_g_mean_mag",
+      "phot_bp_mean_mag",
+      "phot_rp_mean_mag"
+    ],
+    "row_count": 75187,
+    "retrieved_utc": "2026-10-13T10:32:31.022255+00:00"
+  },
+  "membership": {
+    "label": 0.0,
+    "pmra": -3.894565366138005,
+    "pmdec": -2.866313365652444,
+    "parallax": 0.829668634208723,
+    "n_members": 12529.0
+  },
+  "fit": null,
+  "turnoff": {
+    "turnoff_abs_g_proxy": -1.0336921215057373,
+    "turnoff_bp_rp_proxy": 1.05765700340271
+  }
+}

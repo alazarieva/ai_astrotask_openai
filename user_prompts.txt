@@ -1,0 +1,46 @@
+2026-10-13T10:53:30.304+02:00
+read work_summary.md and look at the files in the folder, change Pleiades cone search to 2 degrees and change lower brightness to 18 mag
+
+2026-10-13T11:00:57.871+02:00
+install neccesary packages into conda and run cluster_project.py
+
+2026-10-13T11:24:39.090+02:00
+change Praesepe cone search to 2 degrees, do isohrone fitting for all clusters and show it on diagrams
+
+2026-10-13T12:07:46.114+02:00
+you are cutting off hr and color diagrams, do a search that includes all stars brighter than 15 mag (which means absolute magnitude is <15)
+
+2026-10-13T12:13:19.126+02:00
+don't cut-t
+
+2026-10-13T12:15:25.627+02:00
+don't cut-off stars based on their absolute magnitude, only on observed one (minimal brightness 15 mag), also count for extinction. change query catalogue to gaia_source_lite. don't run the code, just change it
+
+2026-10-13T12:20:10.859+02:00
+instead of our search now do astroquery.gaia, table gaia_source_lite. Don't do any other changes, don't update anything else
+
+2026-10-13T12:21:59.907+02:00
+fix this
+ File "/Users/alyonalazareva/Desktop/FILES/Cluster_project.py", line 177, in fetch_catalogue
+    raise RuntimeError(f"Gaia Archive query failed for {cluster.name}: {error}") from error
+RuntimeError: Gaia Archive query failed for M67: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)
+
+2026-10-13T12:23:52.271+02:00
+fix this
+  File "/Users/alyonalazareva/Desktop/FILES/Cluster_project.py", line 438, in build_builtin_isochrone_grid
+    raise RuntimeError(
+        "Automatic isochrone fitting requires the 'isochrones' package or a CSV passed to --isochrone-grid."
+    ) from error
+RuntimeError: Automatic isochrone fitting requires the 'isochrones' package or a CSV passed to --isochrone-grid.
+
+2026-10-13T12:30:37.988+02:00
+you are cutting off hr and color diagrams, do a search that includes all stars brighter than 15 mag (which means absolute magnitude is <15)
+
+2026-10-13T12:42:29.191+02:00
+show all stars on diagrams, don't change anything else
+
+2026-10-13T12:49:58.547+02:00
+change lower brightness to 18 mag, return stars under 0.6 membership score and show all stars, do isohrone fitting for all clusters and show it on diagrams
+
+2026-10-19T13:24:34.430+02:00
+write all my prompts in one text file and save it

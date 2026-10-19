@@ -1,0 +1,40 @@
+{
+  "cluster": {
+    "name": "Praesepe",
+    "ra_deg": 130.05,
+    "dec_deg": 19.67,
+    "radius_deg": 2.0,
+    "expected_pmra": -35.7,
+    "expected_pmdec": -12.8,
+    "expected_parallax": 5.4,
+    "av_prior": 0.08,
+    "feh_prior": 0.12,
+    "log_age_min": 8.2,
+    "log_age_max": 9.6,
+    "max_g_mag": null
+  },
+  "source": "ESA Gaia Archive",
+  "catalog": "gaiadr3.gaia_source_lite",
+  "query": {
+    "ra_deg": 130.05,
+    "dec_deg": 19.67,
+    "radius_deg": 2.0
+  },
+  "query_version": "4",
+  "selected_columns": [
+    "source_id",
+    "ra",
+    "dec",
+    "parallax",
+    "parallax_error",
+    "pmra",
+    "pmra_error",
+    "pmdec",
+    "pmdec_error",
+    "phot_g_mean_mag",
+    "phot_bp_mean_mag",
+    "phot_rp_mean_mag"
+  ],
+  "row_count": 71035,
+  "retrieved_utc": "2026-10-13T10:36:20.471463+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "cluster": {
+    "name": "Pleiades",
+    "ra_deg": 56.75,
+    "dec_deg": 24.1167,
+    "radius_deg": 2.0,
+    "expected_pmra": 19.15,
+    "expected_pmdec": -45.72,
+    "expected_parallax": 7.35,
+    "av_prior": 0.12,
+    "feh_prior": 0.0,
+    "log_age_min": 7.0,
+    "log_age_max": 9.0,
+    "max_g_mag": 18.0
+  },
+  "source": "ESA Gaia Archive",
+  "catalog": "gaiadr3.gaia_source_lite",
+  "query": {
+    "ra_deg": 56.75,
+    "dec_deg": 24.1167,
+    "radius_deg": 2.0
+  },
+  "query_version": "4",
+  "selected_columns": [
+    "source_id",
+    "ra",
+    "dec",
+    "parallax",
+    "parallax_error",
+    "pmra",
+    "pmra_error",
+    "pmdec",
+    "pmdec_error",
+    "phot_g_mean_mag",
+    "phot_bp_mean_mag",
+    "phot_rp_mean_mag"
+  ],
+  "row_count": 112970,
+  "retrieved_utc": "2026-10-13T10:34:35.832086+00:00"
+}
